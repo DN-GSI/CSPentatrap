@@ -1,0 +1,15 @@
+All changes to Mikhails version
+--------------------------------
+
+
+- pressing the cross in the upper right corner hides now the window and does not destroy the object anYmore
+- centered window
+- publishes new services which indicate the Set-values of the current scan step
+- Included the default settings path in the panel (1st case)
+- Modified "check add object.vi" so that it is possible to scan different channels of the same PS
+- publishes two new services indicating Min and Max value of the first dimension of a scan
+- publishes number of scanned dimensions and maxdimensions
+- Option to open or close front panel at startup
+- Included "Update Objects button in edit object dialog". The reason is that the object list is not loaded automatically during the startup
+  this panel anymore. This just takes to long. If the user wants to include a new object he should press this button
+- publishes now also the name of the scanned devices

@@ -1,0 +1,4 @@
+- pressing the cross in the upper right corner hides now the window and does not destroz the object anYmore
+- centered window
+- Included special0 and 1 to have default-settings and the possibility to leave the frontpanel closed at startup (included in constructor) 
+- Include 1 ms waiting time in two VIs: This is necessary because otherwise the CPU load will be neat 100 percent
